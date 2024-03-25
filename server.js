@@ -10,7 +10,7 @@ const router = require('./router');
 app.use(cors());
 app.use(express.json());
 
-const uri = ''
+const uri = '<NEED TO UPDATE WITH THE MONGODB URI>'
 
 const connect = async () => {
     try{
